@@ -9,11 +9,10 @@ function calcular() {
        return alert('Por favor, digite um valor válido.');
    }
 
-   if (isNaN(op) || op == '') {
-       return alert('Esta operação é inválida.');
-   }
-
    switch (parseFloat(op)) {
+       case 0:
+           alert('Selecione uma operação');
+           return;
        case 1:
            res = (n1 + n2);
            break;
