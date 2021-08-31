@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="estilo.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora da Gabi</title>
+</head>
+
+<body>
+    <h1>Calculadora</h1>
+    <div>
+        <span>1- Soma | 2- Subtração | 3- Multiplicação | 4- Divisão</span>
+    </div>
+    <label>
+        Número 1:
+        <input id="numero1" type="text">
+    </label>
+    <label>
+        Número 2:
+        <input id="numero2" type="text">
+    </label>
+    <label>
+        Operação:
+        <input id="operacao" type="text">
+    </label>
+    <button onclick="calcular()">Calcular</button>
+    <button class="limpar" onclick="limpar()">Limpar</button><br>
+    <span>
+        <strong>Resultado:</strong> 
+            <label id="resultado">
+            </label>
+    </span>
+    <script src="script.js"></script>
+</body>
+
+</html>
